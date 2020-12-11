@@ -1,5 +1,4 @@
 import requests
-from requests.sessions import get_environ_proxies
 
 proxy_list = {
     # http://free-proxy.cz/en/
