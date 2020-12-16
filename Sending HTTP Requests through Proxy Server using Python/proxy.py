@@ -8,7 +8,8 @@ proxy_list = {
     # "http": "127.0.0.1:8080"
 }
 
-url = "https://google.com"
+# url = "https://google.com"
+url = "https://httpbin.org/ip"
 r = requests.get(url, proxies=proxy_list)
 print(r.json)
-# print(r.text)
+print(r.text)
